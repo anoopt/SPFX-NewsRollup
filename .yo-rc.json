@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "newsrollup-webpart",
+    "libraryId": "5be274c1-ec65-4598-9a5c-29a6304f8d16",
+    "framework": "none"
+  }
+}

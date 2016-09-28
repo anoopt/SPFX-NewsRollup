@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "31b679c8-fbc7-41cd-954e-147745ccc8bb",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "31b679c8-fbc7-41cd-954e-147745ccc8bb",
+    "group": { "default": "Under Development" },
+    "title": { "default": "NewsRollup" },
+    "description": { "default": "NewsRollup description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "All news items",
+      "items": 1
+    }
+  }]
+}

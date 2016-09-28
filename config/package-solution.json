@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "newsrollup-webpart-client-side-solution",
+    "id": "5be274c1-ec65-4598-9a5c-29a6304f8d16",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/newsrollup-webpart.spapp"
+  }
+}
