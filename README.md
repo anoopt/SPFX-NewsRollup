@@ -1,4 +1,6 @@
-## newsrollup-webpart
+## News Rollup webpart
+
+This webpart rolls up items from a list called "News" and displays them in "persona" control. This webpart is just for learning/testing purpose.
 
 ### Pre reqs
 If testing on SharePoint then create a list in your site called "News" and add 2 columns - ImageUrl (Hyperlink) and Byline (Single line of text)
