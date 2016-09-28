@@ -29,7 +29,7 @@ export default class NewsRollupWebPart extends BaseClientSideWebPart<INewsRollup
 
   public constructor(context: IWebPartContext) {
     super(context);
-    importableModuleLoader.loadCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
+    //importableModuleLoader.loadCss('https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css');
   }
 
   private _getMockListData(): Promise<INewsItems> {
@@ -86,8 +86,8 @@ export default class NewsRollupWebPart extends BaseClientSideWebPart<INewsRollup
         }
     });
 
-    const listContainer: Element = this.domElement.querySelector('#spListContainer');
-    listContainer.innerHTML = html;
+    const newsItemsHolder: Element = this.domElement.querySelector('#newsItems');
+    newsItemsHolder.innerHTML = html;
   }
 
   public render(): void {
@@ -95,7 +95,7 @@ export default class NewsRollupWebPart extends BaseClientSideWebPart<INewsRollup
       <div class="${styles.newsRollup}">
         <div class="${styles.container}">
           <p class="ms-font-l ms-fontColor-black">${this.properties.description}</p>
-          <div id="spListContainer" />
+          <div id="newsItems" />
           </div>
         </div>
       </div>`;

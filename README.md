@@ -1,6 +1,8 @@
 ## newsrollup-webpart
 
-This is where you include your web part docs.
+### Pre reqs
+If testing on SharePoint then create a list in your site called "News" and add 2 columns - ImageUrl (Hyperlink) and Byline (Single line of text)
+After that add a couple of items for testing
 
 ### Building the code
 
